@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "item": {
+            "items": "#namespace:snail_food"
+          },
+          "entity": {
+            "type": "minecraft:wandering_trader"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "namespace:feed_snail_stone"
+    }
+  }

@@ -1,0 +1,1 @@
+particle minecraft:heart ~ ~ ~ 0.3 0.3 0.3 1 8
