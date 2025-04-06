@@ -1,4 +1,4 @@
-advancement revoke @s only bsnail:interacted_with_snail_holding_stone
+advancement revoke @s only bsnail:interacted_with_snail_holding_oak_leaves
 
 # We want to mimic minecraft's random chance of taming: 1/3 for cat and dog, 1/10 for parrot
 execute store result storage bsnail:temp random_roll int 1 run random roll 1..5
